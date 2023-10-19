@@ -1,0 +1,229 @@
+    1  tree
+    2  sudo snap install tree
+    3  mkdir p1_basic_unix
+    4  cd p1_basic_unix
+    5  touch test_1.txt
+    6  touch test_2.txt
+    7  touch test_3.txt
+    8  touch P1_cmd_history.txt
+    9  history | tail -n 10 >> P1_cmd_history.txt
+    8  touch P1_cmd_history.txt
+    9  history | tail -n 10 >> P1_cmd_history.txt
+   10  echo Justin Hsu October 5, 2023 > test_1.txt
+   11  cat test_1.txt
+   12  ls -l > test_2.txt
+   13  cat test_2.txt
+   14  chmod +x test_1.txt
+   15  ls -l >> test_2.txt
+   16  cat test_2.txt
+   17  history | tail -n 10 >> P1_cmd_history.txt
+   14  chmod +x test_1.txt
+   15  ls -l >> test_2.txt
+   16  cat test_2.txt
+   17  history | tail -n 10 >> P1_cmd_history.txt
+   18  wget
+   19  wget P1_B.tar.gz
+   20  wget /Downloads/P1_B.tar.gz
+   21  wget https://zhwangs.github.io/UCSB_Physcis129L/static/docs/P1_B.tar.gz
+   22  sha256sum P1_B.tar.gz
+   23  history | tail -n 10 >> P1_cmd_history.txt
+   16  cat test_2.txt
+   17  history | tail -n 10 >> P1_cmd_history.txt
+   18  wget
+   19  wget P1_B.tar.gz
+   20  wget /Downloads/P1_B.tar.gz
+   21  wget https://zhwangs.github.io/UCSB_Physcis129L/static/docs/P1_B.tar.gz
+   22  sha256sum P1_B.tar.gz
+   23  history | tail -n 10 >> P1_cmd_history.txt
+   24  mv example.sh /p1_basic_unix
+   25  tar -xzvf P1_B.tar.gz
+   26  mv example.sh /p1_basic_unix
+   27  mv P1_B/example.sh /p1_basic_unix
+   28  ls
+   29  sudo mv P1_B/example.sh /p1_basic_unix
+   30  sudo mv P1_B/example1.txt P1_B/demo1.txt
+   31  sudo mv P1_B/example2.txt P1_B/demo2.txt
+   32  mkdir srv
+   33  rmdir srv
+   34  mkdir src
+   35  mkdir test
+   36  mkdir cache
+   37  cd src
+   38  mkdir graphic
+   39  mkdir exe
+   40  mkdir utilities
+   41  cd ..
+   42  cd test
+   43  mkdir basic
+   44  mkdir composite
+   45  cd ..
+   46  cd cache
+   47  mkdir metadata
+   48  mkdir data
+   49  mkdir images
+   50  mkdir history
+   51  cd data
+   52  mkdir tables
+   53  mkdir directory_list
+   54  cd ..
+   55  history | tail -n 40 >> P1_cmd_history.txt
+   36  mkdir cache
+   37  cd src
+   38  mkdir graphic
+   39  mkdir exe
+   40  mkdir utilities
+   41  cd ..
+   42  cd test
+   43  mkdir basic
+   44  mkdir composite
+   45  cd ..
+   46  cd cache
+   47  mkdir metadata
+   48  mkdir data
+   49  mkdir images
+   50  mkdir history
+   51  cd data
+   52  mkdir tables
+   53  mkdir directory_list
+   54  cd ..
+   55  history | tail -n 40 >> P1_cmd_history.txt
+   56  sudo mv P1_B/demo1.txt /p1_basic_unix/src/exe
+   57  tree
+   58  cd ..
+   59  tree
+   60  cd p1_basic_unix
+   61* sudo mv P1_B/demo1.txt /p1_basic_unix
+   62  sudo mv P1_B/demo1.txt /p1_basic_unix
+   63  sudo mv P1_B/demo1.txt /p1_basic_unix/src
+   64  sudo mv P1_B/demo1.txt/p1_basic_unix
+   65* 
+   66  tar -xzvf P1_B.tar.gz
+   67  rmdir P1_B
+   68  rm -rf P1_B
+   69  tree
+   70  tar -xzvf P1_B.tar.gz
+   71  sudo mv P1_B/example.sh p1_basic_unix
+   72  sudo mv P1_B/example1.txt P1_B/demo1.txt
+   73  sudo mv P1_B/example2.txt P1_B/demo2.txt
+   74  tree
+   75  history | tail -n 40 >> P1_cmd_history.txt
+   41  cd ..
+   42  cd test
+   43  mkdir basic
+   44  mkdir composite
+   45  cd ..
+   46  cd cache
+   47  mkdir metadata
+   48  mkdir data
+   49  mkdir images
+   50  mkdir history
+   51  cd data
+   52  mkdir tables
+   53  mkdir directory_list
+   54  cd ..
+   55  history | tail -n 40 >> P1_cmd_history.txt
+   56  sudo mv P1_B/demo1.txt /p1_basic_unix/src/exe
+   57  tree
+   58  cd ..
+   59  tree
+   60  cd p1_basic_unix
+   61* sudo mv P1_B/demo1.txt /p1_basic_unix
+   62  sudo mv P1_B/demo1.txt /p1_basic_unix
+   63  sudo mv P1_B/demo1.txt /p1_basic_unix/src
+   64  sudo mv P1_B/demo1.txt/p1_basic_unix
+   65* 
+   66  tar -xzvf P1_B.tar.gz
+   67  rmdir P1_B
+   68  rm -rf P1_B
+   69  tree
+   70  tar -xzvf P1_B.tar.gz
+   71  sudo mv P1_B/example.sh p1_basic_unix
+   72  sudo mv P1_B/example1.txt P1_B/demo1.txt
+   73  sudo mv P1_B/example2.txt P1_B/demo2.txt
+   74  tree
+   75  history | tail -n 40 >> P1_cmd_history.txt
+   76  sudo mv P1_B/demo1.txt p1_basic_unix/src/exe
+   77  sudo mv P1_B/demo1.txt ~/p1_basic_unix/src/exe
+   78  tree
+   79  sudo mv P1_B/demo2.txt ~/p1_basic_unix/cache/data/tables
+   80  history | tail -n 40 >> P1_cmd_history.txt
+   54  cd ..
+   55  history | tail -n 40 >> P1_cmd_history.txt
+   56  sudo mv P1_B/demo1.txt /p1_basic_unix/src/exe
+   57  tree
+   58  cd ..
+   59  tree
+   60  cd p1_basic_unix
+   61* sudo mv P1_B/demo1.txt /p1_basic_unix
+   62  sudo mv P1_B/demo1.txt /p1_basic_unix
+   63  sudo mv P1_B/demo1.txt /p1_basic_unix/src
+   64  sudo mv P1_B/demo1.txt/p1_basic_unix
+   65* 
+   66  tar -xzvf P1_B.tar.gz
+   67  rmdir P1_B
+   68  rm -rf P1_B
+   69  tree
+   70  tar -xzvf P1_B.tar.gz
+   71  sudo mv P1_B/example.sh p1_basic_unix
+   72  sudo mv P1_B/example1.txt P1_B/demo1.txt
+   73  sudo mv P1_B/example2.txt P1_B/demo2.txt
+   74  tree
+   75  history | tail -n 40 >> P1_cmd_history.txt
+   76  sudo mv P1_B/demo1.txt p1_basic_unix/src/exe
+   77  sudo mv P1_B/demo1.txt ~/p1_basic_unix/src/exe
+   78  tree
+   79  sudo mv P1_B/demo2.txt ~/p1_basic_unix/cache/data/tables
+   80  history | tail -n 40 >> P1_cmd_history.txt
+   81  tree
+   82  rmdir P1_B
+   83  ln -s ~/p1_basic_unix/src/exe/demo_1.txt demo_link
+   84  alias ll="ls -l"
+   85  ll
+   86  grep -rl "statistics" ~/
+   87  grep -rl "statistics" ~/p1_basic_unix/src/exe/demo1.txt
+   88  grep "statistics" ~/p1_basic_unix/src/exe/demo1.txt
+   89  touch ~/p1_basic_unix/src/utilities/grep_stat_demo1.txt
+   90  grep "statistics" ~/p1_basic_unix/src/exe/demo1.txt | echo ~/p1_basic_unix/src/utilities/grep_stat_demo1.txt
+   91  grep "statistics" ~/p1_basic_unix/src/exe/demo1.txt | echo >  ~/p1_basic_unix/src/utilities/grep_stat_demo1.txt
+   92  grep -rl "statistics" ~/ | touch ~/p1_basic_unix/cache/images/grep_stat_all.txt | echo > ~/p1_basic_unix/cache/images/grep_stat_all.txt
+   93  history | tail -n 40 >> P1_cmd_history.txt
+   62  sudo mv P1_B/demo1.txt /p1_basic_unix
+   63  sudo mv P1_B/demo1.txt /p1_basic_unix/src
+   64  sudo mv P1_B/demo1.txt/p1_basic_unix
+   65  tar -xzvf P1_B.tar.gz
+   66  rmdir P1_B
+   67  rm -rf P1_B
+   68  tree
+   69  tar -xzvf P1_B.tar.gz
+   70  sudo mv P1_B/example.sh p1_basic_unix
+   71  sudo mv P1_B/example1.txt P1_B/demo1.txt
+   72  sudo mv P1_B/example2.txt P1_B/demo2.txt
+   73  tree
+   74  history | tail -n 40 >> P1_cmd_history.txt
+   75  sudo mv P1_B/demo1.txt p1_basic_unix/src/exe
+   76  sudo mv P1_B/demo1.txt ~/p1_basic_unix/src/exe
+   77  tree
+   78  sudo mv P1_B/demo2.txt ~/p1_basic_unix/cache/data/tables
+   79  history | tail -n 40 >> P1_cmd_history.txt
+   80  tree
+   81  rmdir P1_B
+   82  ln -s ~/p1_basic_unix/src/exe/demo_1.txt demo_link
+   83  alias ll="ls -l"
+   84  ll
+   85  grep -rl "statistics" ~/
+   86  grep -rl "statistics" ~/p1_basic_unix/src/exe/demo1.txt
+   87  grep "statistics" ~/p1_basic_unix/src/exe/demo1.txt
+   88  touch ~/p1_basic_unix/src/utilities/grep_stat_demo1.txt
+   89  grep "statistics" ~/p1_basic_unix/src/exe/demo1.txt | echo ~/p1_basic_unix/src/utilities/grep_stat_demo1.txt
+   90  grep "statistics" ~/p1_basic_unix/src/exe/demo1.txt | echo >  ~/p1_basic_unix/src/utilities/grep_stat_demo1.txt
+   91  grep -rl "statistics" ~/ | touch ~/p1_basic_unix/cache/images/grep_stat_all.txt | echo > ~/p1_basic_unix/cache/images/grep_stat_all.txt
+   92  history | tail -n 40 >> P1_cmd_history.txt
+   93  find ~/ -type f -name "*.txt* > test_3.txt
+   94  find ~/ -type f -name "*.txt" | xargs grep -rl "statistics"
+   95  history | tail -n 40 >> P1_cmd_history.txt
+   96  find ~/ -type f -name "*.txt" | xargs grep -rl "statistics"
+   97  history | tail -n 40 >> P1_cmd_history.txt
+   98  ls
+   99  tree
+  100  cd p1_basic_unix
+  101  history | tail -n 40 >> P1_cmd_history.txt

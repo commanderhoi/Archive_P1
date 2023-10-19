@@ -1,0 +1,10 @@
+total 8
+-rw-rw-r-- 1 ubuntu ubuntu 247 Oct 12 22:45 P1_cmd_history.txt
+-rw-rw-r-- 1 ubuntu ubuntu  27 Oct 12 22:55 test_1.txt
+-rw-rw-r-- 1 ubuntu ubuntu   0 Oct 12 22:56 test_2.txt
+-rw-rw-r-- 1 ubuntu ubuntu   0 Oct 12 22:44 test_3.txt
+total 12
+-rw-rw-r-- 1 ubuntu ubuntu 247 Oct 12 22:45 P1_cmd_history.txt
+-rwxrwxr-x 1 ubuntu ubuntu  27 Oct 12 22:55 test_1.txt
+-rw-rw-r-- 1 ubuntu ubuntu 236 Oct 12 22:56 test_2.txt
+-rw-rw-r-- 1 ubuntu ubuntu   0 Oct 12 22:44 test_3.txt
